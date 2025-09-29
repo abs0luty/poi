@@ -1,0 +1,117 @@
+{
+  "poi_types": [
+    {
+      "name": "park",
+      "attributes": [
+        "size",
+        "playground"
+      ]
+    },
+    {
+      "name": "museum",
+      "attributes": [
+        "theme"
+      ]
+    },
+    {
+      "name": "beach",
+      "attributes": [
+        "lifeguard_on_duty"
+      ]
+    }
+  ],
+  "pois": [
+    {
+      "id": 1,
+      "name": "Green Park",
+      "type": "park",
+      "x": 10,
+      "y": 10,
+      "attributes": {
+        "size": "small",
+        "playground": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Blue Museum",
+      "type": "museum",
+      "x": 20,
+      "y": 20,
+      "attributes": {
+        "theme": "art"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sunny Beach",
+      "type": "beach",
+      "x": 30,
+      "y": 10,
+      "attributes": {
+        "lifeguard_on_duty": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "Riverside Park",
+      "type": "park",
+      "x": 12,
+      "y": 10,
+      "attributes": {
+        "size": "large",
+        "playground": false
+      }
+    }
+  ],
+  "visitors": [
+    {
+      "id": 1,
+      "name": "Amal",
+      "nationality": "UAE"
+    },
+    {
+      "id": 2,
+      "name": "Omar",
+      "nationality": "Jordan"
+    },
+    {
+      "id": 3,
+      "name": "Zara",
+      "nationality": "Pakistan"
+    }
+  ],
+  "visits": [
+    {
+      "visitor_id": 1,
+      "poi_id": 1,
+      "date": "01/06/2024",
+      "rating": 9
+    },
+    {
+      "visitor_id": 2,
+      "poi_id": 1,
+      "date": "14/06/2024"
+    },
+    {
+      "visitor_id": 2,
+      "poi_id": 2,
+      "date": "15/06/2024"
+    },
+    {
+      "visitor_id": 2,
+      "poi_id": 3,
+      "date": "16/06/2024"
+    },
+    {
+      "visitor_id": 3,
+      "poi_id": 1,
+      "date": "16/06/2024"
+    },
+    {
+      "visitor_id": 3,
+      "poi_id": 2,
+      "date": "17/06/2024"
+    }
+  ]
+}
